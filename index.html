@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ru" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сауна «Погружение» | Двухэтажный комплекс с бассейном</title>
+    <meta name="description" content="Просторный двухэтажный номер с теплым бассейном, финской сауной, бильярдом и комнатой отдыха в Красноярске. Круглосуточно!">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Яндекс Метрика (Обязательно вставь реальный код перед сдачей) -->
+    <script>
+        // Код метрики
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased">
+
+    <!-- Навигация -->
+    <header class="bg-white shadow-md fixed w-full top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex-shrink-0 flex items-center">
+                    <span class="font-bold text-2xl text-blue-600">Погружение</span>
+                </div>
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#about" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md font-medium">О комплексе</a>
+                    <a href="#gallery" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md font-medium">Фотографии</a>
+                    <a href="#services" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md font-medium">Меню и услуги</a>
+                </nav>
+                <div>
+                    <!-- Кликабельный номер для мобильных -->
+                    <a href="tel:+79954409738" class="font-bold text-lg text-gray-900">+7 (995) 440-97-38</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Главный экран -->
+    <!-- ВНИМАНИЕ: Убедись, что файл images/hero-bg.jpg существует -->
+    <section class="mt-16 bg-gray-900 text-white py-24 bg-cover bg-center relative" style="background-image: url('images/hero-bg.png');">
+        <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 flex flex-col md:flex-row items-center justify-between">
+            <div class="md:w-2/3 text-center md:text-left">
+                <div class="inline-block bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-semibold tracking-wide mb-4 uppercase">
+                    Только 1 эксклюзивный зал
+                </div>
+                <h1 class="text-4xl tracking-tight font-extrabold sm:text-5xl md:text-6xl mb-6">
+                    <span class="block">Двухэтажный комплекс</span>
+                    <span class="block text-blue-400">для идеального отдыха</span>
+                </h1>
+                <p class="text-xl text-gray-200 mb-8 max-w-2xl">
+                    Просторный номер с теплым бассейном-пещерой, финской сауной, русским бильярдом и большой обеденной зоной. 
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                    <a href="https://wa.me/79954409738?text=Здравствуйте,%20хочу%20узнать%20свободное%20время%20и%20забронировать%20комплекс" target="_blank" class="flex items-center justify-center px-8 py-4 text-lg font-bold rounded-md text-white bg-green-500 hover:bg-green-600 transition-colors shadow-lg">
+                        Бронь в WhatsApp
+                    </a>
+                    <div class="flex items-center justify-center px-8 py-4 text-2xl font-extrabold text-white bg-gray-800 bg-opacity-80 rounded-md border border-gray-600">
+                        3000 ₽ <span class="text-base font-normal text-gray-400 ml-2">/ час</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Блок с отзывами -->
+            <div class="md:w-1/3 mt-12 md:mt-0 flex justify-center md:justify-end">
+                <div class="bg-white rounded-xl p-6 text-center shadow-2xl transform hover:-translate-y-1 transition-transform duration-300 border-b-4 border-yellow-400">
+                    <div class="text-yellow-400 text-5xl font-black mb-2">4.9</div>
+                    <div class="flex justify-center text-yellow-400 text-xl mb-2">★★★★★</div>
+                    <p class="text-gray-900 font-bold text-lg">Высокий рейтинг</p>
+                    <p class="text-gray-500 text-sm mt-1">На основе отзывов в 2ГИС и Яндекс</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция Галереи (Продаем глазами) -->
+    <section id="gallery" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">Всё включено в стоимость</h2>
+                <p class="mt-4 text-xl text-gray-500">Вам не нужно делить пространство с чужими людьми. Весь комплекс только ваш.</p>
+            </div>
+
+            <!-- Сетка фотографий -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div class="relative group overflow-hidden rounded-lg shadow-md aspect-square bg-gray-200">
+                    <img src="images/pool.webp" alt="Бассейн с подсветкой" class="object-cover w-full h-full group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-4">
+                        <span class="text-white font-bold text-lg">Тёплый бассейн</span>
+                    </div>
+                </div>
+                <div class="relative group overflow-hidden rounded-lg shadow-md aspect-square bg-gray-200">
+                    <img src="images/sauna.webp" alt="Финская сауна" class="object-cover w-full h-full group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-4">
+                        <span class="text-white font-bold text-lg">Финская сауна</span>
+                    </div>
+                </div>
+                <div class="relative group overflow-hidden rounded-lg shadow-md aspect-square bg-gray-200">
+                    <img src="images/billiards.png" alt="Бильярд" class="object-cover w-full h-full group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-4">
+                        <span class="text-white font-bold text-lg">Русский бильярд</span>
+                    </div>
+                </div>
+                <div class="relative group overflow-hidden rounded-lg shadow-md aspect-square bg-gray-200">
+                    <img src="images/relax.webp" alt="Комната отдыха" class="object-cover w-full h-full group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-4">
+                        <span class="text-white font-bold text-lg">Обеденная зона</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Дополнительные услуги (Увеличение чека) -->
+    <section id="services" class="py-20 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">Дополнительные услуги</h2>
+                <p class="mt-4 text-xl text-gray-500">Сделайте ваш отдых еще комфортнее</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Услуга: Еда -->
+                <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden flex flex-col">
+                    <div class="p-8 flex-grow">
+                        <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-6 text-2xl">🍽️</div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Еда и напитки</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            Среди меню Вы сможете найти большое разнообразие любимых блюд: картофель фри, жаркое, овощные нарезки, отбивная из свинины, рыба на выбор и многое другое!
+                        </p>
+                    </div>
+                    <div class="bg-gray-50 p-6 border-t border-gray-100">
+                        <span class="text-2xl font-black text-gray-900">от 500 ₽</span>
+                    </div>
+                </div>
+
+                <!-- Услуга: PS4 -->
+                <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden flex flex-col">
+                    <div class="p-8 flex-grow">
+                        <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-6 text-2xl">🎮</div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Sony PlayStation 4</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            Для яркого отдыха Вы можете воспользоваться нашими дополнительными услугами, среди которых присутствует аренда приставки с популярными играми.
+                        </p>
+                    </div>
+                    <div class="bg-gray-50 p-6 border-t border-gray-100">
+                        <span class="text-2xl font-black text-gray-900">3000 ₽ <span class="text-sm font-normal text-gray-500">/ аренда</span></span>
+                    </div>
+                </div>
+
+                <!-- Услуга: Принадлежности -->
+                <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden flex flex-col">
+                    <div class="p-8 flex-grow">
+                        <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-6 text-2xl">🧖‍♂️</div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Банные принадлежности</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            Если Вы забыли дома тапочки, полотенца, халат или простынь - не проблема! Приобретите их у нас за отдельную стоимость.
+                        </p>
+                    </div>
+                    <div class="bg-gray-50 p-6 border-t border-gray-100">
+                        <span class="text-2xl font-black text-gray-900">300 ₽ <span class="text-sm font-normal text-gray-500">/ 1 шт.</span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer class="bg-gray-900 text-white pt-16 pb-8 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 mb-12">
+            <div>
+                <h3 class="text-3xl font-extrabold mb-6">Готовы к погружению?</h3>
+                <p class="text-gray-400 mb-8 text-lg">Свяжитесь с нами прямо сейчас, чтобы уточнить свободные часы и забронировать лучший отдых.</p>
+                
+                <div class="space-y-4">
+                    <div class="flex items-center">
+                        <span class="w-8 text-blue-500">📍</span>
+                        <span>просп. Металлургов, 2Н, Красноярск</span>
+                    </div>
+                    <div class="flex items-center">
+                        <span class="w-8 text-blue-500">🕒</span>
+                        <span>Круглосуточно, без выходных</span>
+                    </div>
+                    <div class="flex items-center">
+                        <span class="w-8 text-blue-500">📞</span>
+                        <a href="tel:+79954409738" class="text-xl font-bold hover:text-blue-400 transition-colors">+7 (995) 440-97-38</a>
+                    </div>
+                </div>
+                
+                <div class="mt-8 flex gap-4">
+                    <a href="https://wa.me/79954409738" target="_blank" class="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg font-bold transition-colors">
+                        Написать в WhatsApp
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Место под фото фасада или карту -->
+            <div class="rounded-xl overflow-hidden bg-gray-800 h-80 relative group">
+                <!-- Обязательно добавь фото здания снаружи, чтобы люди понимали, куда ехать -->
+                <img src="images/facade.webp" alt="Здание сауны снаружи" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity">
+                <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+                    <span class="bg-black bg-opacity-70 text-white px-4 py-2 rounded font-medium">Так мы выглядим с улицы</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
+            <p class="text-gray-500 text-sm mb-4 md:mb-0">
+                &copy; 2026 Сауна «Погружение». Все права защищены.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
